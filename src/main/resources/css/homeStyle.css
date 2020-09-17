@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url('../fonts/NunitoRegular.ttf');
+}
+
+#homePane {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 500px;
+    -fx-background-color: #382e29;
+}
+
+#headBar {
+    -fx-pref-width: 350px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+#logoIcon {
+    -fx-image: url("../images/Logo.png");
+}
+
+#controlButtons {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+#exitButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-padding: 0;
+    -fx-graphic: url("../images/Exit.png");
+}
+
+#iconifyButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-padding: 0;
+    -fx-graphic: url("../images/Iconify.png");
+}
+
+#iconifyButton:hover, #exitButton:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+#iconifyButton:pressed, #exitButton:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+
+#audioChoosed, #videoChoosed {
+    -fx-pref-width: 280px;
+    -fx-pref-height: 60px;
+    -fx-padding: -10px 0 -9px 0;
+
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-border-color: #ffffff;
+
+    -fx-background-radius: 30px;
+
+    -fx-font-family: 'Nunito', sans-serif;
+    -fx-font-size: 40px;
+    -fx-text-fill: #ffffff;
+}
+
+#audioChoosed:hover, #videoChoosed:hover {
+    -fx-background-color: #2D211C;
+    -fx-cursor: hand;
+}
+
+#audioChoosed:pressed, #videoChoosed:pressed {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}

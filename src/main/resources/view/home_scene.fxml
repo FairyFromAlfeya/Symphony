@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="homePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/homeStyle.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.HomeController">
+   <children>
+      <AnchorPane id="headBar" layoutX="14.0" layoutY="14.0" onMouseDragged="#headDragged" onMousePressed="#headPressed" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView id="logoIcon" fitHeight="21.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="167.0" AnchorPane.topAnchor="2.0" />
+         </children></AnchorPane>
+      <AnchorPane id="controlButtons" prefHeight="200.0" prefWidth="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button id="iconifyButton" mnemonicParsing="false" onMouseClicked="#iconifyClicked" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="5.0" />
+            <Button id="exitButton" mnemonicParsing="false" onMouseClicked="#exitClicked" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+         </children></AnchorPane>
+      <Button id="audioChoosed" mnemonicParsing="false" onMouseClicked="#audioClicked" text="AUDIO" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="170.0" />
+      <Button id="videoChoosed" mnemonicParsing="false" onMouseClicked="#videoClicked" text="VIDEO" AnchorPane.bottomAnchor="145.0" AnchorPane.rightAnchor="60.0" />
+   </children>
+</AnchorPane>

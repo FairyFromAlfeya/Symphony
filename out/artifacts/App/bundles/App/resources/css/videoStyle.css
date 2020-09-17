@@ -1,0 +1,91 @@
+#homePane {
+    -fx-pref-width: 845px;
+    -fx-pref-height: 500px;
+    -fx-background-color: #382e29;
+}
+
+#headBar {
+    -fx-pref-width: 770px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+#logoIcon {
+    -fx-image: url("../images/Logo.png");
+}
+
+#controlButtons {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+#exitButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-graphic: url("../images/Exit.png");
+}
+
+#iconifyButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-graphic: url("../images/Iconify.png");
+}
+
+#homeButton {
+    -fx-pref-width: 15px;
+    -fx-pref-height: 13px;
+    -fx-graphic: url("../images/Home.png");
+}
+
+#homeButtonContainer {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+
+#menu {
+    -fx-pref-width: 845px;
+    -fx-pref-height: 65px;
+    -fx-background-color: rgba(45, 33, 28, 0.8);
+}
+
+#addButton {
+    -fx-pref-width: 26px;
+    -fx-pref-height: 24px;
+    -fx-graphic: url("../images/Add.png");
+}
+
+#playButton {
+    -fx-pref-width: 20px;
+    -fx-pref-height: 23px;
+    -fx-graphic: url("../images/Play.png");
+}
+
+#nextButton {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 21px;
+    -fx-graphic: url("../images/Next.png");
+}
+
+#prevButton {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 21px;
+    -fx-graphic: url("../images/Prev.png");
+}

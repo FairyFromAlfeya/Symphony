@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url('../fonts/NunitoRegular.ttf');
+}
+
+#homePane {
+    -fx-pref-width: 845px;
+    -fx-pref-height: 500px;
+    -fx-background-color: #382e29;
+}
+
+#headBar {
+    -fx-pref-width: 770px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+#logoIcon {
+    -fx-image: url("../images/Logo.png");
+}
+
+#controlButtons {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+#exitButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-graphic: url("../images/Exit.png");
+}
+
+#iconifyButton {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-graphic: url("../images/Iconify.png");
+}
+
+#homeButton {
+    -fx-pref-width: 15px;
+    -fx-pref-height: 13px;
+    -fx-graphic: url("../images/Home.png");
+}
+
+#addButton {
+    -fx-pref-width: 26px;
+    -fx-pref-height: 24px;
+    -fx-graphic: url("../images/Add.png");
+}
+
+#playButton {
+    -fx-pref-width: 20px;
+    -fx-pref-height: 23px;
+    -fx-graphic: url("../images/Play.png");
+}
+
+#nextButton {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 21px;
+    -fx-graphic: url("../images/Next.png");
+}
+
+#prevButton {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 21px;
+    -fx-graphic: url("../images/Prev.png");
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-scale-x: 1.0;
+    -fx-scale-y: 1.0;
+}
+
+#homeButtonContainer {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-color: #2D211C;
+}
+
+#musicList {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 445px;
+    -fx-padding: 0;
+    -fx-background-insets: 0;
+    -fx-background-color: #2D211C;
+}
+
+#audioPlayer {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 445px;
+}
+
+#albumCover {
+    -fx-image: url("../images/Album.png");
+}
+
+.inner {
+    -fx-pref-width: 370px;
+    -fx-pref-height: 45px;
+
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0 0 3px 0;
+}
+
+.list-cell {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 60px;
+    -fx-padding: 0;
+
+    -fx-background-color: #2D211C;
+}
+
+.list-cell:selected {
+    -fx-background-color: #1f1a17;
+}
+
+.label {
+    -fx-padding: -9px 0 -9px 0;
+
+    -fx-font-family: 'Nunito', sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button,
+.list-view .scroll-bar:vertical {
+    -fx-padding: 0px;
+}
